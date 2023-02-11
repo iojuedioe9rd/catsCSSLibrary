@@ -1,0 +1,28 @@
+{
+  "name": "cats-css-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "watch": "gulp --watch --no-respawning",
+    "build": "gulp --no-respawning"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iojuedioe9rd/catsCSSLibrary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iojuedioe9rd/catsCSSLibrary/issues"
+  },
+  "homepage": "https://github.com/iojuedioe9rd/catsCSSLibrary#readme",
+  "devDependencies": {
+    "@types/gulp": "^4.0.10",
+    "@types/gulp-sass": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.0",
+    "typescript": "^4.9.5"
+  }
+}

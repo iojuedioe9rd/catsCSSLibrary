@@ -1,0 +1,62 @@
+/*================================================================= scss/varriables.scss =================================================================*/
+
+// theme colors
+$primary: #326dee !default;
+$secondary: #1ac886 !default;
+$error: #d32752 !default;
+$info: #f6c31c !default;
+
+// color palette
+$colors: (
+    "primary": $primary,
+    "primary-light-complement": light-comp($primary),
+    "secondary": $secondary,
+    "secondary-light-complement": light-comp($secondary),
+    "error": $error,
+    "error-light-complement": light-comp($error),
+    "info": $info,
+    "info-light-complement": light-comp($info),
+    "blue": #1919e6,
+    "blue-light-complement": light-comp(#1919e6),
+    "red": #e61919,
+    "red-light-complement": light-comp(#e61919),
+    "yellow": #e6e619,
+    "yellow-light-complement": light-comp(#e6e619),
+    "green": #19e635,
+    "green-light-complement": light-comp(#19e635),
+    "orange": #ffa600,
+    "orange-light-complement": light-comp(#ffa600),
+    "purple": #9900ff,
+    "purple-light-complement": light-comp(#9900ff),
+    "gray": #808080,
+    "gray-light-complement": light-comp(#808080),
+    "black": #000000,
+    "black-light-complement": light-comp(#000000),
+    "white": #ffffff,
+    "white-light-complement": light-comp(#ffffff),
+    "e2": #e2e2e2e2,
+    "e2-light-complement": light-comp(#e2e2e2e2),
+);
+
+
+
+
+// spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+// box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+// font sizes
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * .75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+/*================================================================= end of scss/varriables.scss =================================================================*/
+
