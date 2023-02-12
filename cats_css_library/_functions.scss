@@ -6,5 +6,13 @@
     $light-complement: lighten($complement, 30%);
     @return $light-complement;
 }
+@function dark-comp($color)
+{
+    $complement: complement($color);
+    $dark-complement: darken($complement, 30%);
+    @return $dark-complement;
+}
+
+
 
 /* ================================================================= end of cats_css_library/_functions.scss =================================================================*/
